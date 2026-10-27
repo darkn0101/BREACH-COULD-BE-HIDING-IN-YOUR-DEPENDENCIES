@@ -1,0 +1,118 @@
+
+CVE / PoC / ADVISORY LINKS
+==========================
+
+PHP
+===
+
+CVE-2026-109618
+PoC: https://github.com/ikow/php2shell-poc
+PoC: https://github.com/agrresore/php2shell
+Official PHP Advisory: https://github.com/php/php-src/security/advisories/GHSA-w8hw-w9fx-j79w
+Reference: https://www.thehackerwire.com/vulnerability/CVE-2026-109618/
+
+CVE-2026-109619
+Official PHP Advisory: https://github.com/php/php-src/security/advisories/GHSA-6wmf-4rv5-p3rp
+PoC Reference Index: https://iliya-bashrc.github.io/SubZer0/cve/CVE-2026-109619
+Related PoC (not independently verified for this CVE): https://github.com/ikow/php2shell-poc
+Related PoC (not independently verified for this CVE): https://github.com/agrresore/php2shell
+
+
+NEXT.JS
+=======
+
+CVE-2026-96889
+PoC: https://github.com/rafabd1/VectorFreed
+Official Next.js Security Update: https://nextjs.org/blog/nextjs-security-update-october-14-2026
+Reference: https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-148/
+
+GHSA-673q-mjm6-r5xr
+Official Advisory: https://github.com/vercel/next.js/security/advisories/GHSA-673q-mjm6-r5xr
+GitHub Advisory Database: https://github.com/advisories/GHSA-673q-mjm6-r5xr
+
+GHSA-p3m5-59mp-jv5r / CVE-2026-94482
+GitHub Advisory Database: https://github.com/advisories/ghsa-p3m5-59mp-jv5r
+
+
+NODE.JS
+=======
+
+CVE-2026-111497
+PoC/Lab: https://github.com/s1ko/poc-cve-2026-111497
+PoC/Lab (inspect carefully): https://github.com/dimasma0305/CVE-2026-111497-POC
+Additional PoC: https://github.com/CaterMaoZi/CVE-2026-111497-POC
+Additional PoC: https://github.com/hypnguyen1209/CVE-2026-111497
+Additional PoC: https://github.com/ZeroHackOrg/node2shell-poc
+Related Tool: https://github.com/ikow/brotli2crash
+Related Tool: https://github.com/trailofbits/brotli-checker
+Detection Tool: https://github.com/completetech-security/node2shell-check
+Detection Tool: https://github.com/shivrajem/node2shell-detect
+Official Node.js Security Release: https://nodejs.org/en/blog/vulnerability/october-2026-security-releases
+
+CVE-2026-105482
+PoC/Lab: https://github.com/CaterMaoZi/CVE-2026-105482-POC
+GitHub Advisory Database: https://github.com/advisories/GHSA-9v6m-4q2w-7r3p
+Official Node.js Security Release: https://nodejs.org/en/blog/vulnerability/october-2026-security-releases
+
+CVE-2026-105483
+GitHub Advisory Database: https://github.com/advisories/GHSA-8h4p-qpcq-gq24
+Official Node.js Security Release: https://nodejs.org/en/blog/vulnerability/october-2026-security-releases
+
+CVE-2026-106069
+Official Node.js Security Release: https://nodejs.org/en/blog/vulnerability/october-2026-security-releases
+
+
+NGINX
+=====
+
+CVE-2026-15176
+Official NGINX Security Advisories: https://nginx.org/en/security_advisories.html
+NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-15176
+Reference: https://www.csa.gov.sg/alerts-and-advisories/alerts/al-2026-150/
+
+CVE-2026-93479
+Official NGINX Security Advisories: https://nginx.org/en/security_advisories.html
+Debian Security Announcement: https://lists.debian.org/debian-security-announce/2026/msg00490.html
+
+CVE-2026-97205
+Official NGINX Security Advisories: https://nginx.org/en/security_advisories.html
+NVD: https://nvd.nist.gov/vuln/detail/CVE-2026-97205
+
+
+GITLAB
+======
+
+CVE-2026-97229
+CVE Record: https://www.cve.org/CVERecord?id=CVE-2026-97229
+GitHub Advisory Database: https://github.com/advisories/GHSA-9hj5-r43h-h3xg
+GitLab Patch Release: https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-4-2-released/
+PoC Reference Index (not independently verified): https://sec.kaitan.id/cves/CVE-2026-97229
+
+Search terms for finding related repositories:
+CVE-2026-97229-GitLab-CI-CD-Regex-Compiler-RCE
+CVE-2026-97229-PoC
+Gitlab-RCE-CVE-2026-97229
+cve-2026-97229-lab
+
+CVE-2026-10264
+CVE.org: https://www.cve.org/
+NVD CVE Search: https://nvd.nist.gov/vuln/search
+
+
+JAVA
+====
+
+CVE-2026-91403
+Oracle Security Alert: https://www.oracle.com/security-alerts/alert-cve-2026-91403.html
+Oracle Detailed Advisory: https://www.oracle.com/security-alerts/cve-2026-91403verbose.html
+Red Hat CVE Page: https://access.redhat.com/security/cve/CVE-2026-91403
+
+
+NOTES
+=====
+
+1. Public PoC repositories are untrusted code. Review the source before running anything.
+2. Test only on systems you own or are explicitly authorized to assess, preferably in an isolated VM/lab.
+3. "Not independently verified" means a working PoC was not confirmed during the research; it does not prove none exists.
+4. The supplied identifier "GHSA-673q-mjm-r5xr" appears to be a typo; the identifier listed above is GHSA-673q-mjm6-r5xr.
+5. The supplied identifier "GSHA-p3m5-59mp-jv5r" appears to have a typo in the prefix; the standard prefix is GHSA.
